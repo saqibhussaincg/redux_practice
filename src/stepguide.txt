@@ -1,0 +1,29 @@
+Project Structure
+---------------------
+store.js will be in src folder.
+
+containers folder
+    redux folder
+        actions folder
+            productActions.js
+        constants folder
+            action-types.js
+    reducers folder
+        productReducer.js
+        index.js
+    
+
+
+01 : 
+action type define karenge action-types.js wali file mai.
+
+02 :
+ab action banaye ge productActions.js wali file mai.
+
+03 : 
+ab productReducer.js wali file mai kaam karenge.
+Reducer mai kaam kar rahay hain, manager ko bata rahay hain k tumhe ab kia kam karna hai.
+reducer always take the initial(ibtedai - shuruwati) state and action.
+
+04 :
+ab index.js wali mai kaam kar rahay hain.
