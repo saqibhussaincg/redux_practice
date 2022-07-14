@@ -1,3 +1,10 @@
+Redux Life Cycle
+-------------------
+action creator > action > dispatch > reducers > store.
+
+you > booking form > submit form > ticket counters > railway central store.
+
+
 Project Structure
 ---------------------
 store.js will be in src folder.
@@ -27,3 +34,22 @@ reducer always take the initial(ibtedai - shuruwati) state and action.
 
 04 :
 ab index.js wali mai kaam kar rahay hain.
+
+05 : 
+ab store.js wali file mai kaam kar rahay hain.
+
+06 : 
+ab src > index.js wali file mai kaam kar rahay hain.
+
+07 :
+components k folder mai files create karli hain.
+
+08 :
+app.js mai browser router per kaam kaar rahay hain.
+src > index.js mai root per browserrouter define kar denge.
+
+09 :
+productListing.js wali file mai kaam kar rahay hain.
+
+10 :
+productComponent.js wali file per kaam kar rahay hain.
