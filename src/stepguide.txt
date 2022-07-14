@@ -53,3 +53,12 @@ productListing.js wali file mai kaam kar rahay hain.
 
 10 :
 productComponent.js wali file per kaam kar rahay hain.
+
+11 :
+dubara productListing.js wali file mai kaam kar rahay hain.
+axios or useeffect import karaya 
+fetchproducts() ka function bana kar os k andar fakestore ki API fetch(LAANA) call karai API ko le kar aye.
+or os fetchproducts() function ko phr (useEffect) mai call kara lenge takay jub bhi page render ho tou (useEffect) bhi render ho or wo API ko bhi re-render karay.
+
+12 : 
+productReducer.js wali file mai kaam kar rahay hain.

@@ -2,18 +2,20 @@ import { ActionTypes } from "../redux/constants/action-types";
 
 const initialSate = {
 
-    products: [
-        {
-            id: 1,
-            title: "Saqib",
-            category: "programmer",
-        },
-        {
-            id: 2,
-            title: "Sajid",
-            category: "police wala",
-        }
-    ]
+    // products: [
+    //     {
+    //         id: 1,
+    //         title: "Saqib",
+    //         category: "programmer",
+    //     },
+    //     {
+    //         id: 2,
+    //         title: "Sajid",
+    //         category: "police wala",
+    //     }
+    // ]
+
+    products : []
 
 }
 
@@ -21,11 +23,14 @@ const initialSate = {
 export const productReducer = (state = initialSate, {type, payload}) => {
 
     switch (type) {
-        case ActionTypes.SET_PRODUCT:
-            return state;
-         
+        case ActionTypes.SET_PRODUCTS:
+            // return state;
+            return {...state, products: payload}
+           
         default:
             return state;
+
+           
             
     }
 }
