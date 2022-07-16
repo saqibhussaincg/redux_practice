@@ -29,7 +29,7 @@ const ProductListing = () => {
       dispatch(setProducts(response.data));
     }
 
-    useEffect( () => { fetchProducts(); }, []);
+    useEffect( () => { fetchProducts();  }, [] );
     console.log("products" , products);
 
   return (
@@ -67,7 +67,7 @@ export default ProductListing
 
 // use Effect k andar (fetchProducts) fetch api wala function chala dia.
 
-// once we get the data from the server(api) we no need to add that data into (store). and for that we need to (DISPATCH) an ACTION or hamara action hai (SETPRODUCTS)
+// once we get the data from the server(api) we need to add that data into (store). and for that we need to (DISPATCH) an ACTION or hamara action hai (SETPRODUCTS)
 
 // (DISPATCH) k liye redux ka hook use karenge useDispatch()
 

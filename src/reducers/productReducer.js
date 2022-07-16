@@ -48,3 +48,8 @@ export const productReducer = (state = initialSate, {type, payload}) => {
 // swtich case define karenge k agar type(action) ki case actiontypes.setproduct hoti hai tou state return kardo ... yahan manager match karega k customer ne jo form fill kara hai wo wali chezain ho sakti hain ya nahi.
 
 // destructre kar kar k action ka naam type kardia hai warna wo hai action hi hai.
+
+// UPDATE THE REDUX STORE
+// reducer will get the type and the payload, so the type will be the set products and once we get the set products as a type we need to pass the new state. we need to update the payload as we recieved the data from our server.
+
+// first we take the state which is the existing state (...state) then we are going to add the payload whatever the payload we have.
